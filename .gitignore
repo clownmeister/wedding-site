@@ -4,4 +4,4 @@
 
 # ignore docker files and db
 data/
-data/*
+data/mysql
