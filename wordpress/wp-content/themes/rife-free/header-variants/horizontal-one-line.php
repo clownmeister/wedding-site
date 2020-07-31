@@ -35,7 +35,8 @@ if(strlen($show_header_at) && $show_header_at > 0){
 <header id="header" class="<?php echo esc_attr( $header_classes ); ?>"<?php apollo13framework_schema_args( 'header' ); ?>>
 	<div class="head">
 		<div class="logo-container"<?php apollo13framework_schema_args('logo'); ?>><?php apollo13framework_header_logo(); ?></div>
-		<nav id="access" class="navigation-bar"<?php apollo13framework_schema_args('navigation'); ?>><!-- this element is need in HTML even if menu is disabled -->
+		<div class="logo__under-text">Strasne libovej popis pod logem. Strasne libovej popis pod logem.Strasne libovej popis pod logem. Strasne libovej popis pod logem.</div>
+        <nav id="access" class="navigation-bar"<?php apollo13framework_schema_args('navigation'); ?>><!-- this element is need in HTML even if menu is disabled -->
 			<?php if ( $menu_on ): ?>
 				<?php apollo13framework_header_menu(); ?>
 			<?php endif; ?>

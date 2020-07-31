@@ -4,3 +4,70 @@
 .button--form-rsvp{
     width: 100% !important;
 }
+.logo{
+    margin: 0 auto !important;
+}
+.logo:hover{
+    text-decoration: none !important;
+}
+.logo-container{
+    display: block !important;
+    width: 100%;
+}
+.navigation-bar{
+    display: block !important;
+    width: 100%;
+}
+#header-tools::before{
+    content: none !important;
+}
+.head{
+    display: block !important;
+}
+.header__banner{
+    min-height: 750px !important;
+    background-attachment: initial !important;
+}
+
+.logo__under-text{
+    text-align: center;
+    display: block;
+    width: 100%;
+    transition: 1s all ease-in-out;
+}
+
+.a13-sticky-variant.logo__under-text{
+    height: 0;
+}
+@media only screen and (max-width: 1025px) {
+    #header-tools{
+        margin: 15px 0 !important;
+        padding: 0 !important;
+        width: 100% !important;
+        display: flex !important;
+        flex-flow: row !important;
+        justify-content: center!important;
+    }
+    .header__banner{
+        min-height: 250px !important;
+    }
+    .logo__under-text{
+        display: none;
+        visibility: hidden;
+    }
+}
+@media only screen and (min-width: 550px) {
+    .header__banner{
+        min-height: 350px !important;
+    }
+}
+@media only screen and (min-width: 850px) {
+    .header__banner{
+        min-height: 500px !important;
+    }
+}
+@media only screen and (min-width: 1025px) {
+    .header__banner{
+        min-height: 750px !important;
+    }
+}
